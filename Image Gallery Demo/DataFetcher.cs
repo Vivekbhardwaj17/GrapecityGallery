@@ -26,7 +26,7 @@ namespace Image_Gallery_Demo
             }
             catch
             {
-                // assigning the sample images of groot to readText if any exception occurs
+               
                 readText = File.ReadAllText(@"Data/sampleData.json");
             }
             return readText;
